@@ -1,0 +1,173 @@
+/* Réinitialisation de certains styles par défaut pour éviter les inconsistences entre les navigateurs */
+* {
+    margin: 0;
+    /* Supprime les marges par défaut */
+    padding: 0;
+    /* Supprime les paddings par défaut */
+    box-sizing: border-box;
+    /* Permet de mieux contrôler la mise en page */
+}
+
+/* Applique un style de base au corps du document */
+body {
+    font-family: 'Arial', sans-serif;
+    /* Définit la police de caractères */
+    line-height: 1.6;
+    /* Définit l'espacement entre les lignes */
+    color: #333;
+    /* Couleur du texte */
+    background-color: #f4f4f4;
+    /* Couleur de fond de la page */
+    font-family: 'Lato', sans-serif;
+        
+}
+
+/* Style du header (en-tête) */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    /* Centre horizontalement */
+    align-items: center;
+    /* Centre verticalement */
+}
+
+/* Style du contenu du header */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 80%; */
+    /* Supprimez cette ligne */
+    margin: auto;
+}
+
+/* Style de l'image dans le header */
+header img {
+    max-width: 60px;
+    /* Largeur maximale de l'image */
+    margin-right: 2rem;
+    /* Marge à droite de l'image */
+    border-radius: 30px;
+}
+
+/* Style des liens de navigation */
+nav a {
+    color: #fff;
+    /* Couleur des liens */
+    text-decoration: none;
+    /* Supprime le soulignement des liens */
+    margin: 0 1rem;
+    /* Marge horizontale autour des liens */
+}
+
+/* Effet au survol des liens de navigation */
+nav a:hover {
+    color: #ddd;
+    /* Couleur des liens au survol */
+}
+
+/* Style du contenu principal */
+.content {
+    display: flex;
+    /* Utilise Flexbox pour le positionnement */
+    flex-direction: column;
+    /* Organise les éléments en colonne */
+    padding: 2rem;
+    /* Padding autour du contenu */
+}
+
+/* Style des sections dans le contenu principal */
+section {
+    margin-bottom: 2rem;
+    /* Marge en bas de chaque section */
+}
+
+
+/* Style du footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    /* Ajoutez cette ligne */
+    bottom: 0;
+    /* Ajoutez cette ligne */
+    width: 100%;
+    /* Ajoutez cette ligne */
+    position: fixed;
+}
+footer img {
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 40px;
+}
+/* Style du contenu du footer */
+.footer-content {
+    display: flex;
+    /* Utilise Flexbox pour le positionnement */
+    justify-content: center;
+    /* Centre les éléments horizontalement */
+    align-items: center;
+    /* Centre les éléments verticalement */
+    flex-direction: column;
+    /* Organise les éléments en colonne */
+}
+
+/* Style des liens sociaux dans le footer */
+.social-links a {
+    color: #fff;
+    /* Couleur des liens */
+    text-decoration: none;
+    /* Supprime le soulignement des liens */
+    margin: 0.5rem;
+    /* Marge autour des liens */
+}
+
+/* Effet au survol des liens sociaux */
+.social-links a:hover {
+    color: #ddd;
+    /* Couleur des liens au survol */
+}
+
+/* Style des sections de contenu -------------------------*/
+section {
+    display: flex;
+    /* Utilise Flexbox pour le positionnement */
+    flex-direction: column;
+    /* Organise les éléments en colonne */
+    align-items: center;
+    /* Centre les éléments horizontalement */
+    margin-bottom: 2rem;
+    /* Marge en bas de chaque section */
+    padding: 1rem;
+    /* Padding autour du contenu de la section */
+    background-color: #fff;
+    /* Couleur de fond pour la section */
+    border-radius: 8px;
+    /* Arrondit les coins de la section */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Ombre portée pour un effet de profondeur */
+    width: 80%;
+    /* Largeur de la section */
+    margin: 2rem auto;
+    /* Centre la section avec une marge automatique */
+}
+
+/* Style des titres dans les sections */
+section h1,
+section h2 {
+    margin-bottom: 1rem;
+    /* Marge en bas des titres */
+}
+
+/* Style des paragraphes dans les sections */
+section p {
+    text-align: justify;
+    /* Justifie le texte des paragraphes */
+    line-height: 1.5;
+    /* Espacement entre les lignes */
+}
